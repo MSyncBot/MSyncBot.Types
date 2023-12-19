@@ -1,4 +1,4 @@
-﻿namespace MSyncBot.Types.Types.Enums;
+﻿namespace MSyncBot.Types.Enums;
 
 public enum FileType
 {

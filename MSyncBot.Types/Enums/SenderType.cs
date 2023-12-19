@@ -1,4 +1,4 @@
-﻿namespace MSyncBot.Types.Types.Enums;
+﻿namespace MSyncBot.Types.Enums;
 
 public enum SenderType
 {
@@ -6,5 +6,5 @@ public enum SenderType
     Discord,
     VK,
     Server,
-    None,
+    None
 }

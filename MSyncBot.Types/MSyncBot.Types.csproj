@@ -9,7 +9,8 @@
         <Authors>mambastick</Authors>
         <PackageTags>Types; Enums</PackageTags>
         <Description>The library for the MSync project, which stores the types and enums needed to transfer
-            information between the server and clients.</Description>
+            information between the server and clients.
+        </Description>
         <RepositoryType>github</RepositoryType>
         <RepositoryUrl>https://github.com/MSyncBot/MSyncBot.Types</RepositoryUrl>
         <Copyright>Copyright (c) Neelov Eugene 2023</Copyright>

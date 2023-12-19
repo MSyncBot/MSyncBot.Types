@@ -1,6 +1,6 @@
-﻿using MSyncBot.Types.Types.Enums;
+﻿using MSyncBot.Types.Enums;
 
-namespace MSyncBot.Types.Types;
+namespace MSyncBot.Types;
 
 public class MediaFile(string name, string extension, byte[] data, FileType fileType)
 {

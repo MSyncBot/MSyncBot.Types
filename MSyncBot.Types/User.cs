@@ -1,4 +1,4 @@
-﻿namespace MSyncBot.Types.Types;
+﻿namespace MSyncBot.Types;
 
 public class User(string firstName, string? lastName = null, string? username = null, ulong? id = null)
 {
