@@ -2,6 +2,7 @@
 
 public enum MessageType
 {
+    Unknown,
     Text,
     Album,
     Photo,

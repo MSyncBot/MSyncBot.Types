@@ -2,9 +2,9 @@
 
 public enum SenderType
 {
+    Unknown,
     Telegram,
     Discord,
     VK,
-    Server,
-    None
+    Server
 }
