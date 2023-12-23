@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.0.6</Version>
+        <Version>1.0.7</Version>
         <Title>MSyncBot.Types</Title>
         <Authors>mambastick</Authors>
         <PackageTags>Types; Enums</PackageTags>
