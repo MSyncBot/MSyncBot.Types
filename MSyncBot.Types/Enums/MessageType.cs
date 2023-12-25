@@ -4,6 +4,7 @@ public enum MessageType
 {
     Unknown,
     Text,
+    Sticker,
     Album,
     Photo,
     Video,

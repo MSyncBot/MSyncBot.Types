@@ -3,6 +3,7 @@
 public enum FileType
 {
     Unknown,
+    Sticker,
     Photo,
     Video,
     VideoNote,
