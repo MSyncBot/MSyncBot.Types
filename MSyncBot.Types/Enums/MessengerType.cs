@@ -1,10 +1,10 @@
 ﻿namespace MSyncBot.Types.Enums;
 
-public enum SenderType
+public enum MessengerType
 {
     Unknown,
     Telegram,
     Discord,
-    VK,
+    Vk,
     Server
 }
