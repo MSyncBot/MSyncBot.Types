@@ -1,7 +1,9 @@
-﻿using MSyncBot.Types.Enums;
+﻿using System.Text.Json.Serialization;
+using MSyncBot.Types.Enums;
 
 namespace MSyncBot.Types;
 
+[method: JsonConstructor]
 public class Messenger(string name, MessengerType messengerType)
 {
     public string Name { get; set; } = name;

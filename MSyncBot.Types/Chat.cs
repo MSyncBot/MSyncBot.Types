@@ -1,5 +1,8 @@
-﻿namespace MSyncBot.Types;
+﻿using System.Text.Json.Serialization;
 
+namespace MSyncBot.Types;
+
+[method: JsonConstructor]
 public class Chat(string name, ulong id)
 {
     public string Name { get; set; } = name;

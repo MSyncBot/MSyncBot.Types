@@ -1,15 +1,15 @@
-﻿namespace MSyncBot.Types;
+﻿using System.Text.Json.Serialization;
 
+namespace MSyncBot.Types;
+
+[method: JsonConstructor]
 public class User(
     string firstName,
-    string? lastName = null,
-    string? username = null,
-    ulong? id = null,
-    File? profilePhoto = null)
+    ulong id)
 {
     public string FirstName { get; set; } = firstName;
-    public string? LastName { get; set; } = lastName;
-    public string? Username { get; set; } = username;
     public ulong? Id { get; set; } = id;
-    public File? ProfilePhoto { get; set; } = profilePhoto;
+    public string? LastName { get; set; }
+    public string? Username { get; set; }
+    public File? ProfilePhoto { get; set; }
 }
