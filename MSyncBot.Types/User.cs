@@ -8,7 +8,7 @@ public class User(
     ulong id)
 {
     public string FirstName { get; set; } = firstName;
-    public ulong? Id { get; set; } = id;
+    public ulong Id { get; set; } = id;
     public string? LastName { get; set; }
     public string? Username { get; set; }
     public File? ProfilePhoto { get; set; }
